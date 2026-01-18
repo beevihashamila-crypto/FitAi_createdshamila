@@ -1,0 +1,9 @@
+@echo off
+echo Starting AI Fitness Master...
+echo.
+echo Installing dependencies...
+pip install -r requirements.txt
+echo.
+echo Starting application...
+python -m streamlit run app.py
+pause

@@ -24,14 +24,11 @@ pip package manager
 
 Installation
 Clone the repository
-
 bash
 git clone https://github.com/yourusername/fitai.git
-
 cd fitai
 
 Create virtual environment (recommended)
-
 bash
 python -m venv venv
 # On Windows:
@@ -40,16 +37,12 @@ venv\Scripts\activate
 source venv/bin/activate
 
 Install dependencies
-
 bash
 pip install -r requirements.txt
 
 Run the application
-
 bash
 streamlit run app.py
 
 Open your browser and navigate to http://localhost:8501
 
-# FitAi_createdshamila
-FitAi is an AI powered fitness application for tracking health, workouts, and progress
